@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.btn{
+    width: 150px;
+    background-color: transparent;
+    border-radius: 5px;
+    background-color: crimson ;
+    border: 1px solid #fff;
+}
+.element{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/117844-crescent-moon-free-download-png-hd.png);
+    border-radius: 50%;
+    background-size: 40px; 
+    transition: all ease 0.3s;
+}
+.dark{
+    background-image: url(../img/117844-crescent-moon-free-download-png-hd.png);
+    background-color: aqua;
+    transform: translate(0px);
+}
+.light{
+    background-image: url(../img/pngtree-sun-png-clipart-colored-png-image_5656301.png);
+    transform: translate(90px);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
